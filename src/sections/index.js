@@ -1,4 +1,4 @@
-import Footer from './footer'
+import Footer from './Footer'
 import Hero from './Hero'
 import PopularProducts from './PopularProducts'
 import Services from './Services'
