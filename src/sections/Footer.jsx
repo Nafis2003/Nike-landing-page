@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="mt-6 sm:max-w-sm text-lg text-white">Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards</p>
           <div className="flex items-center gap-5 mt-6">
             {socialMedia.map(img=>(
-              <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
+              <div key={img.alt} className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
                 <img src={img.src} alt={img.alt} width={24} height={24}/>
               </div>
             ))}
